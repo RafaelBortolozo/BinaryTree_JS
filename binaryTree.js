@@ -1,16 +1,3 @@
-/*  
-    learning purposes, Code based on the video:
-        Title: Binary Search Tree - Beau teaches JavaScript
-        Channel: freeCodeCamp.org (YouTube)
-        link: https://www.youtube.com/watch?v=5cU1ILGy6dM
-
-    additional functions:
-        isEmpty()
-        preorder()
-        inorder()
-        posorder()
-*/
-
 class Node{
     constructor(data){
         this.left = null
@@ -203,3 +190,4 @@ console.log('isEmpty: ' + binaryTree.isEmpty())
 console.log('preorder: ' + binaryTree.preorder(binaryTree.root))
 console.log('inorder: ' + binaryTree.inorder(binaryTree.root))
 console.log('posorder: ' + binaryTree.posorder(binaryTree.root))
+
